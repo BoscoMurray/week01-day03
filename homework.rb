@@ -2,56 +2,56 @@
 
 lines = ['Gyle Centre', 'Edinburgh Park', 'Murrayfield Stadium', 'Haymarket', 'Princes Street']
 
-# 1. Work out how many stops there are in the array
-# print lines.length()
+1. Work out how many stops there are in the array
+print lines.length()
 
-# # 2. Return 'Edinburgh Park' from the array
-# print lines[1]
+# 2. Return 'Edinburgh Park' from the array
+print lines[1]
 
-# # 3. How many ways can we return 'Princes Street' from the array?
-# lines[4]
-# lines[-1]
-# lines.last()
+# 3. How many ways can we return 'Princes Street' from the array?
+lines[4]
+lines[-1]
+lines.last()
 
-# # 4. Work out the index position of 'Haymarket
-# lines.index("Haymarket")
+# 4. Work out the index position of 'Haymarket
+lines.index("Haymarket")
 
-# # 5. Add 'Airport' to the start of the array
-# lines.unshift("Airport")
+# 5. Add 'Airport' to the start of the array
+lines.unshift("Airport")
 
-# # 6. Add 'York Place' to the end of the array
-# lines.push("York Place")
+# 6. Add 'York Place' to the end of the array
+lines.push("York Place")
 
-# # 7. Remove 'Edinburgh Park' from the array using it's name
-# lines.delete("Edinburgh Park")
+# 7. Remove 'Edinburgh Park' from the array using it's name
+lines.delete("Edinburgh Park")
 
-# # 8. Delete 'Edinburgh Park' from the array by index
-# lines.delete_at(1)
+# 8. Delete 'Edinburgh Park' from the array by index
+lines.delete_at(1)
 
 
-# # 9. Reverse the positions of the stops in the array
-# lines.reverse()
+# 9. Reverse the positions of the stops in the array
+lines.reverse()
 
 ### B. Given the following data structure:
 
 my_hash = {"0" => "Zero", 1 => "One", :two => "Two", "two" => 2}
 
-# # 1. How would you return the string `"One"`?
-# print my_hash[1]
+# 1. How would you return the string `"One"`?
+print my_hash[1]
 
-# # 2. How would you return the string `"Two"`?
-# print my_hash[:two]
+# 2. How would you return the string `"Two"`?
+print my_hash[:two]
 
-# # 3. How would you return the number `2`?
-# print my_hash["two"]
+# 3. How would you return the number `2`?
+print my_hash["two"]
 
-# # 4. How would you add `{3 => "Three"}` to the hash?
-# my_hash[3] = "Three"
-# puts my_hash
+# 4. How would you add `{3 => "Three"}` to the hash?
+my_hash[3] = "Three"
+puts my_hash
 
-# # 5. How would you add `{:four => 4}` to the hash?
-# my_hash[:four] = 4
-# puts my_hash
+# 5. How would you add `{:four => 4}` to the hash?
+my_hash[:four] = 4
+puts my_hash
 
 ### C. Given the following data structure:
 
@@ -87,40 +87,40 @@ users = {
   }
 }
 
-# # 1. Return Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
-# print users["Jonathan"][:twitter]
+# 1. Return Jonathan's Twitter handle (i.e. the string `"jonnyt"`)
+print users["Jonathan"][:twitter]
 
-# # 2. Return Erik's hometown
-# print users["Erik"][:home_town]
+# 2. Return Erik's hometown
+print users["Erik"][:home_town]
 
-# # 3. Return the array of Erik's favorite numbers
-# print users["Erik"][:favourite_numbers]
+# 3. Return the array of Erik's favorite numbers
+print users["Erik"][:favourite_numbers]
 
-# # 4. Return the type of Avril's pet Colin
-# print users["Avril"][:pets]["colin"]
+# 4. Return the type of Avril's pet Colin
+print users["Avril"][:pets]["colin"]
 
-# # 5. Return the smallest of Erik's favorite numbers
-# nums = users["Erik"][:favourite_numbers]
-# print nums.min
+# 5. Return the smallest of Erik's favorite numbers
+nums = users["Erik"][:favourite_numbers]
+print nums.min
 
-# # 6. Add the number `7` to Erik's favorite numbers
-# users["Erik"][:favourite_numbers] << 7
+# 6. Add the number `7` to Erik's favorite numbers
+users["Erik"][:favourite_numbers] << 7
 
-# # 7. Change Erik's hometown to Edinburgh
-# users["Erik"][:hometown] = "Edinburgh"
+# 7. Change Erik's hometown to Edinburgh
+users["Erik"][:hometown] = "Edinburgh"
 
-# # 8. Add a pet dog to Erik called "Fluffy"
-# users["Erik"][:pets]["Fluffy"] = :dog
+# 8. Add a pet dog to Erik called "Fluffy"
+users["Erik"][:pets]["Fluffy"] = :dog
 
-# # 9. Add yourself to the users hash
-# users["Ross"] = {
-#     :twitter => "twitter_ross",
-#     :favourite_numbers => [7, 10, 1000000],
-#     :home_town => "Longniddry",
-#     :pets => {
-#       "pete" => :fish,
-#       "tommy" => :donkey
-#     }
-#   }
+# 9. Add yourself to the users hash
+users["Ross"] = {
+    :twitter => "twitter_ross",
+    :favourite_numbers => [7, 10, 1000000],
+    :home_town => "Longniddry",
+    :pets => {
+      "pete" => :fish,
+      "tommy" => :donkey
+    }
+  }
 
 
